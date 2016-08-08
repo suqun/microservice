@@ -1,22 +1,20 @@
-/*
+package com.ow.wises;/*
  * Copyright 2016 Wicresoft, Inc. All rights reserved.
  */
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
- * Description of ServerApplication
+ * Description of com.ow.wises.ServerApplication
  *
  * @author larry.quns
  *         Created on 16/8/8
  * @version $$Id:$$
  */
-@EnableConfigServer
 @SpringBootApplication
-public class ServerApplication {
+public class ConfigClientApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(ServerApplication.class).web(true).run(args);
+        new SpringApplicationBuilder(ConfigClientApplication.class).web(true).run(args);
     }
 }
