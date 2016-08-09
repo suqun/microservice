@@ -1,0 +1,3 @@
+com/ow/wises/FeignApplication.class
+com/ow/wises/service/ComputeClient.class
+com/ow/wises/web/ConsumerController.class
